@@ -1,0 +1,16 @@
+<beans>
+    <bean class="org.example.kaikeba.adapter.HttpRequestHandlerAdapter"/>
+    <bean class="org.example.kaikeba.adapter.SimpleControllerHandlerAdapter"/>
+    <bean class="org.example.kaikeba.mapping.BeanNameUrlHandlerMapping"/>
+    <bean class="org.example.kaikeba.mapping.SimpleUrlHandlerMapping"/>
+
+
+    <bean name="/queryUser" class="org.example.kaikeba.handler.QueryUserHandler"/>
+
+    <bean class="org.example.kaikeba.mapping.RequestMappingHandlerMapping"/>
+
+    <bean class="org.example.kaikeba.adapter.RequestMappingHandlerAdapter"/>
+
+    <bean class="org.example.kaikeba.controller.UserController"/>
+
+</beans>

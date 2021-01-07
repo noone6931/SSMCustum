@@ -1,0 +1,3 @@
+org\example\spring\init\InitializingBean.class
+org\example\spring\aware\Aware.class
+org\example\spring\aware\BeanFactoryAware.class
